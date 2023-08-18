@@ -24,4 +24,4 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
     # Calculate the end index
     end_index = start_index + page_size
 
-    return start_index, end_index - 1  # Ajusting the end index to be inclusive
+    return start_index, end_index  # Ajusting the end index to be inclusive
